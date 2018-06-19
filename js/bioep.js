@@ -107,6 +107,7 @@ window.bioEp = {
 		// "style" creates an error "link" works fine
 		// https://github.com/misterboe/exit-intent-popup/commit/2541d604389e6b5f6c8b69342786ae36b4834f6f#comments
 		// document.head.insertBefore(style, document.getElementsByTagName("style")[0]);
+		document.head.insertBefore(style, document.getElementsByTagName("link")[0]);
 	},
 
 	// Add the popup to the page
